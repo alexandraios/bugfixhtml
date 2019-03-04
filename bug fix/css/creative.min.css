@@ -6639,7 +6639,7 @@ a.close.disabled {
 .bs-tooltip-top .arrow::before {
 	top: 0;
 	border-width: .4rem .4rem 0;
-	border-top-color: #000
+	border-top-color: #fff
 }
 
 .bs-tooltip-auto[x-placement^=right],
@@ -6658,7 +6658,7 @@ a.close.disabled {
 .bs-tooltip-right .arrow::before {
 	right: 0;
 	border-width: .4rem .4rem .4rem 0;
-	border-right-color: #000
+	border-right-color: #fff
 }
 
 .bs-tooltip-auto[x-placement^=bottom],
@@ -6675,7 +6675,7 @@ a.close.disabled {
 .bs-tooltip-bottom .arrow::before {
 	bottom: 0;
 	border-width: 0 .4rem .4rem;
-	border-bottom-color: #000
+	border-bottom-color: #fff
 }
 
 .bs-tooltip-auto[x-placement^=left],
@@ -6694,7 +6694,7 @@ a.close.disabled {
 .bs-tooltip-left .arrow::before {
 	left: 0;
 	border-width: .4rem 0 .4rem .4rem;
-	border-left-color: #000
+	border-left-color: #fff
 }
 
 .tooltip-inner {
@@ -6702,7 +6702,7 @@ a.close.disabled {
 	padding: .25rem .5rem;
 	color: #fff;
 	text-align: center;
-	background-color: #000;
+	background-color: #fff;
 	border-radius: .25rem
 }
 
@@ -10831,7 +10831,7 @@ a.text-dark:hover {
 		display: none
 	}
 	.badge {
-		border: 1px solid #000
+		border: 1px solid #fff
 	}
 	.table {
 		border-collapse: collapse!important
